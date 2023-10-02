@@ -785,6 +785,7 @@ Mecanizado
 
     header{
         min-height:760vh;
+        min-height: 80vh;
 
     }
 }
