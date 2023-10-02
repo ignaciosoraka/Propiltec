@@ -669,6 +669,8 @@ Mecanizado
     .services {
         flex-direction: column;
         padding: 70px 30px 0px 30px;
+        align-items: center;
+        justify-content: center;
     }
 
     .service {
@@ -779,6 +781,11 @@ Mecanizado
 @media screen and (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
+    }
+
+    header{
+        min-height:760vh;
+
     }
 }
 @media (max-width: 576px){
